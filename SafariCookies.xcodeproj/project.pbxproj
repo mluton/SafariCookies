@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EB667901774D6A300432C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB6678F1774D6A300432C70 /* Foundation.framework */; };
+		4EB667931774D6A300432C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB667921774D6A300432C70 /* main.m */; };
+		4EB667AD1774E85500432C70 /* SafariCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB667AC1774E85500432C70 /* SafariCookies.m */; };
+		4EB667B71775180C00432C70 /* DDCliApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB667AF1775180C00432C70 /* DDCliApplication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4EB667B81775180C00432C70 /* DDCliParseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB667B11775180C00432C70 /* DDCliParseException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4EB667B91775180C00432C70 /* DDCliUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB667B31775180C00432C70 /* DDCliUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4EB667BA1775180C00432C70 /* DDGetoptLongParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB667B61775180C00432C70 /* DDGetoptLongParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4EB6678A1774D6A300432C70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4EB6678C1774D6A300432C70 /* cookies */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cookies; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB6678F1774D6A300432C70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4EB667921774D6A300432C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EB667951774D6A300432C70 /* SafariCookies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SafariCookies-Prefix.pch"; sourceTree = "<group>"; };
+		4EB667AB1774E85500432C70 /* SafariCookies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariCookies.h; sourceTree = "<group>"; };
+		4EB667AC1774E85500432C70 /* SafariCookies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariCookies.m; sourceTree = "<group>"; };
+		4EB667AE1775180C00432C70 /* DDCliApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDCliApplication.h; path = ddcli/DDCliApplication.h; sourceTree = "<group>"; };
+		4EB667AF1775180C00432C70 /* DDCliApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDCliApplication.m; path = ddcli/DDCliApplication.m; sourceTree = "<group>"; };
+		4EB667B01775180C00432C70 /* DDCliParseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDCliParseException.h; path = ddcli/DDCliParseException.h; sourceTree = "<group>"; };
+		4EB667B11775180C00432C70 /* DDCliParseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDCliParseException.m; path = ddcli/DDCliParseException.m; sourceTree = "<group>"; };
+		4EB667B21775180C00432C70 /* DDCliUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDCliUtil.h; path = ddcli/DDCliUtil.h; sourceTree = "<group>"; };
+		4EB667B31775180C00432C70 /* DDCliUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDCliUtil.m; path = ddcli/DDCliUtil.m; sourceTree = "<group>"; };
+		4EB667B41775180C00432C70 /* DDCommandLineInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDCommandLineInterface.h; path = ddcli/DDCommandLineInterface.h; sourceTree = "<group>"; };
+		4EB667B51775180C00432C70 /* DDGetoptLongParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGetoptLongParser.h; path = ddcli/DDGetoptLongParser.h; sourceTree = "<group>"; };
+		4EB667B61775180C00432C70 /* DDGetoptLongParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGetoptLongParser.m; path = ddcli/DDGetoptLongParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EB667891774D6A300432C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB667901774D6A300432C70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EB667831774D6A300432C70 = {
+			isa = PBXGroup;
+			children = (
+				4EB6679D1774E77800432C70 /* ddcli */,
+				4EB667911774D6A300432C70 /* SafariCookies */,
+				4EB6678E1774D6A300432C70 /* Frameworks */,
+				4EB6678D1774D6A300432C70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EB6678D1774D6A300432C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EB6678C1774D6A300432C70 /* cookies */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EB6678E1774D6A300432C70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EB6678F1774D6A300432C70 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EB667911774D6A300432C70 /* SafariCookies */ = {
+			isa = PBXGroup;
+			children = (
+				4EB667AB1774E85500432C70 /* SafariCookies.h */,
+				4EB667AC1774E85500432C70 /* SafariCookies.m */,
+				4EB667921774D6A300432C70 /* main.m */,
+				4EB667941774D6A300432C70 /* Supporting Files */,
+			);
+			path = SafariCookies;
+			sourceTree = "<group>";
+		};
+		4EB667941774D6A300432C70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EB667951774D6A300432C70 /* SafariCookies-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EB6679D1774E77800432C70 /* ddcli */ = {
+			isa = PBXGroup;
+			children = (
+				4EB667AE1775180C00432C70 /* DDCliApplication.h */,
+				4EB667AF1775180C00432C70 /* DDCliApplication.m */,
+				4EB667B01775180C00432C70 /* DDCliParseException.h */,
+				4EB667B11775180C00432C70 /* DDCliParseException.m */,
+				4EB667B21775180C00432C70 /* DDCliUtil.h */,
+				4EB667B31775180C00432C70 /* DDCliUtil.m */,
+				4EB667B41775180C00432C70 /* DDCommandLineInterface.h */,
+				4EB667B51775180C00432C70 /* DDGetoptLongParser.h */,
+				4EB667B61775180C00432C70 /* DDGetoptLongParser.m */,
+			);
+			name = ddcli;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EB6678B1774D6A300432C70 /* SafariCookies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB6679A1774D6A300432C70 /* Build configuration list for PBXNativeTarget "SafariCookies" */;
+			buildPhases = (
+				4EB667881774D6A300432C70 /* Sources */,
+				4EB667891774D6A300432C70 /* Frameworks */,
+				4EB6678A1774D6A300432C70 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariCookies;
+			productName = SafariCookies;
+			productReference = 4EB6678C1774D6A300432C70 /* cookies */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EB667841774D6A300432C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sandmoose Software";
+			};
+			buildConfigurationList = 4EB667871774D6A300432C70 /* Build configuration list for PBXProject "SafariCookies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EB667831774D6A300432C70;
+			productRefGroup = 4EB6678D1774D6A300432C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EB6678B1774D6A300432C70 /* SafariCookies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EB667881774D6A300432C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB667931774D6A300432C70 /* main.m in Sources */,
+				4EB667AD1774E85500432C70 /* SafariCookies.m in Sources */,
+				4EB667B71775180C00432C70 /* DDCliApplication.m in Sources */,
+				4EB667B81775180C00432C70 /* DDCliParseException.m in Sources */,
+				4EB667B91775180C00432C70 /* DDCliUtil.m in Sources */,
+				4EB667BA1775180C00432C70 /* DDGetoptLongParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EB667981774D6A300432C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4EB667991774D6A300432C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4EB6679B1774D6A300432C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafariCookies/SafariCookies-Prefix.pch";
+				PRODUCT_NAME = cookies;
+			};
+			name = Debug;
+		};
+		4EB6679C1774D6A300432C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafariCookies/SafariCookies-Prefix.pch";
+				PRODUCT_NAME = cookies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EB667871774D6A300432C70 /* Build configuration list for PBXProject "SafariCookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB667981774D6A300432C70 /* Debug */,
+				4EB667991774D6A300432C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB6679A1774D6A300432C70 /* Build configuration list for PBXNativeTarget "SafariCookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB6679B1774D6A300432C70 /* Debug */,
+				4EB6679C1774D6A300432C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EB667841774D6A300432C70 /* Project object */;
+}

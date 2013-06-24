@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SafariCookies' target in the 'SafariCookies' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
