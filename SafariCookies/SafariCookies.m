@@ -19,6 +19,7 @@
     {
         // Long         Short   Argument options
         {@"version",    'v',    DDGetoptNoArgument},
+        {@"help",       'h',    DDGetoptNoArgument},
         {@"remove",     'r',    DDGetoptNoArgument},
         {nil,           0,      0},
     };
@@ -30,6 +31,13 @@
 {
     if (_version) {
         ddprintf(@"cookies 1.0\n");
+        return 0;
+    }
+    
+    if (_help) {
+        ddprintf(@"usage:\n");
+        ddprintf(@"  cookies example.com\t\tDisplay cookies for specified domain.\n");
+        ddprintf(@"  cookies -r example.com\tDisplay and remove cookies for specified domain.\n");
         return 0;
     }
 
