@@ -1,6 +1,11 @@
 # SafariCookies
 A command line utility for OS X to display and optionally remove Safari cookies for a specified domain. Based on [RemoveCookie](https://github.com/robmathers/RemoveCookie) by [Rob Mathers](https://github.com/robmathers).
 
+## Download
+OS X executable. Requires OS X 10.6 or later. Unzip and place somewhere in your **PATH**.
+
+[cookies.zip](http://sourceforge.net/projects/mlsafaricookies/files/cookies.zip/download)
+
 ## Usage
 
 Display cookies for domain.
