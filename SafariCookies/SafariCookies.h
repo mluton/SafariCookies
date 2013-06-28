@@ -17,6 +17,7 @@
     // application:willParseOptions. The instance variable name should be the
     // same as the long option name.
     BOOL _remove;
+    BOOL _version;
 }
 
 @end

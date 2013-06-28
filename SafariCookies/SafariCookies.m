@@ -18,6 +18,7 @@
     DDGetoptOption optionTable[] =
     {
         // Long         Short   Argument options
+        {@"version",    'v',    DDGetoptNoArgument},
         {@"remove",     'r',    DDGetoptNoArgument},
         {nil,           0,      0},
     };
@@ -27,11 +28,16 @@
 
 - (int) application:(DDCliApplication*)app runWithArguments:(NSArray*)arguments
 {
+    if (_version) {
+        ddprintf(@"cookies 1.0\n");
+        return 0;
+    }
+
     if (arguments.count < 1) {
         ddprintf(@"No Argument Given\n");
         return 1;
     }
-    
+
     NSHTTPCookieStorage *cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
     
     NSString *filterString = [[NSString alloc] initWithFormat:@"domain ENDSWITH '%@'", arguments[0]];
