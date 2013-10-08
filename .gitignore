@@ -157,3 +157,7 @@ xcuserdata
 #
 # ...none. Everything is now explained.
 
+
+####
+# Xcode 5 Stuff
+*.xccheckout
