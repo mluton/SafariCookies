@@ -19,6 +19,11 @@
     BOOL _version;
     BOOL _help;
     BOOL _remove;
+    BOOL _all;
+    NSString *_exclude;
+    NSString *_excludeFile;
+    BOOL _quiet;
+    BOOL _dryRun;
 }
 
 @end
