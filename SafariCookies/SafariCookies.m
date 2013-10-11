@@ -42,7 +42,7 @@
 - (int) application:(DDCliApplication*)app runWithArguments:(NSArray*)arguments
 {
     if (_version) {
-        ddprintf(@"cookies 1.0\n");
+        ddprintf(@"cookies 1.01\n");
         return 0;
     }
     
